@@ -12,6 +12,6 @@ COPY .env .env.development ./
 
 RUN npm run build
 
-EXPOSE 3001
+EXPOSE 80
 
 CMD ["npm", "run", "start:prod"]
